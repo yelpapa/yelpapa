@@ -9,8 +9,15 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Flowers</title>
+  <title>Abay Kunanbayev</title>
 
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+  .wow:first-child {
+    visibility: hidden;
+  }
+</style>
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
@@ -29,234 +36,349 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-</head>
 
-<body class="sub_page">
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <div class="top_contact-container">
-          <div class="tel_container">
-            <a href="">
-              <img src="images/telephone-symbol-button.png" alt=""> Call : +77716296969
+  
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+      }
+
+      h2 {
+          color: #957f61;
+      }
+
+      #quiz-container {
+          max-width: 600px;
+          margin: auto;
+      }
+
+      .question {
+          margin-bottom: 15px;
+      }
+
+      .options label {
+          display: block;
+          margin-bottom: 8px;
+      }
+
+      #submit-btn {
+          padding: 10px 20px;
+          background-color: rgba(82, 61, 4, 0.635) ;
+          color: rgba(82, 61, 4, 0.669)f4;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+
+      #result {
+          margin-top: 20px;
+      }
+  </style>
+  </head>
+
+
+
+  <body class="sub_page">
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+       <div class="container">
+         <div class="top_contact-container">
+           <div class="tel_container">
+             <a href="">
+               <img src="images/telephone-symbol-button.png" alt=""> Call : +77716296969
+             </a>
+           </div>
+           <div class="social-container">
+             <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" style="font-size:24px; color:#ffff"></i></a>
+             <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f" style="font-size:24px; color:#ffff"></i></a>
+             <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" style="font-size:24px; color:#ffff"></i></a>
+         </div>
+         
+          </div>
+        </div>
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                Abay Kunanbayev
+              </span>
             </a>
-          </div>
-          <div class="social-container">
-            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" style="font-size:24px; color:#e84393"></i></a>
-            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f" style="font-size:24px; color:#e84393"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" style="font-size:24px; color:#e84393"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
+                <ul class="navbar-nav  ">
+                  <li class="nav-item active">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Biography<span class="sr-only">(current)</span></a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"> Qara soz </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="medicine.html"> Quiz </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                  </li>
+                </ul>
+                <form class="form-inline ">
+                  <input type="search" placeholder="Search">
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                </form>
+                <div class="login_btn-contanier ml-0 ml-lg-5">
+                  <a href="">
+                    <img src="images/user.png" alt="">
+                    <span>
+                      Login
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+  
+          </nav>
         </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              Flowers
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex  flex-column flex-lg-row align-items-center w-100 justify-content-between">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="medicine.html"> Bouquet </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-              </ul>
-              <form class="form-inline ">
-                <input type="search" placeholder="Search">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
-              <div class="login_btn-contanier ml-0 ml-lg-5">
-                <a href="">
-                  <img src="images/user.png" alt="">
-                  <span>
-                    Login
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-
-  </div>
-
-  <!-- health section -->
-
-  <section class="health_section layout_padding">
-    <div class="health_carousel-container">
-      <h2 class="text-uppercase">
-        Bouquet
-
-
-      </h2>
-      <div class="carousel-wrap layout_padding2">
-        <div class="owl-carousel owl-2">
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
-              <div class="img-box">
-                <img src="images/img-4.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Bouquet
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
-              <div class="img-box">
-                <img src="images/img-1.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Bouquet
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
-              <div class="img-box">
-                <img src="images/img-6.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Bouquet
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="btn_container">
-                <a href="">
-                  Buy Now
-                </a>
-              </div>
-              <div class="img-box">
-                <img src="images/img-3.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <div class="star_container">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-
-                </div>
-                <div class="text">
-                  <h6>
-                    Bouquet
-                  </h6>
-                  <h6 class="price">
-                    <span>
-                      $
-                    </span>
-                    30
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </header>
+      <!-- end header section -->
     </div>
-    <div class="d-flex justify-content-center">
-      <a href="">
-        See more
-      </a>
+  
+
+
+    <section class="quiz_section layout_padding">
+    <div id="quiz-container">
+      <h2>Quiz Time!</h2>
+      <div class="question">
+        <p>1. What is Abay Kunanbayev's full name?</p>
+        <div class="options">
+            <label><input type="radio" name="q1" value="Abay Nurpeisov Kunanbayev"> Abay Nurpeisov Kunanbayev</label>
+            <label><input type="radio" name="q1" value="Abay Qunanbayuly Kunanbayev"> Abay Qunanbayuly Kunanbayev</label>
+            <label><input type="radio" name="q1" value="Abay Temirzhan Kunanbayev"> Abay Temirzhan Kunanbayev</label>
+            <label><input type="radio" name="q1" value="Abay Nursultan Kunanbayev"> Abay Nursultan Kunanbayev</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>2. In which century did Abay Kunanbayev live?</p>
+        <div class="options">
+            <label><input type="radio" name="q2" value="17th century "> 17th century</label>
+            <label><input type="radio" name="q2" value="18th century"> 18th century</label>
+            <label><input type="radio" name="q2" value="19th century"> 19th century</label>
+            <label><input type="radio" name="q2" value="20th century"> 20th century</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>3. What is Abay Kunanbayev's most famous work of poetry?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="Eugene Onegin"> "Eugene Onegin"</label>
+            <label><input type="radio" name="q3" value="Kozy-Korpesh and Bayan-Sulu"> "Kozy-Korpesh and Bayan-Sulu"</label>
+            <label><input type="radio" name="q3" value="Words of Edification"> "Words of Edification"</label>
+            <label><input type="radio" name="q3" value="War and Peace"> "War and Peace"</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>4. Abay Kunanbayev was a prominent figure in which field?</p>
+        <div class="options">
+            <label><input type="radio" name="q4" value="Politics">  Politics</label>
+            <label><input type="radio" name="q4" value="Science"> Science</label>
+            <label><input type="radio" name="q4" value="Literature"> Literature</label>
+            <label><input type="radio" name="q4" value="Sports"> Sports</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>5. Which river is associated with Abay Kunanbayev's poetic works?</p>
+        <div class="options">
+            <label><input type="radio" name="q5" value="Volga River"> Volga River</label>
+            <label><input type="radio" name="q5" value="Syr Darya"> Syr Darya</label>
+            <label><input type="radio" name="q5" value="Irtysh River"> Irtysh River</label>
+            <label><input type="radio" name="q5" value="Amu Darya"> Amu Darya</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>6. What is the meaning of the Kazakh word "Qara soz," often associated with Abay Kunanbayev?</p>
+        <div class="options">
+            <label><input type="radio" name="q6" value="Black Words"> Black Words</label>
+            <label><input type="radio" name="q6" value="Noble Words"> Noble Words</label>
+            <label><input type="radio" name="q6" value="Beautiful Words"> Beautiful Words</label>
+            <label><input type="radio" name="q6" value="Ancient Words"> Ancient Words</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>7. Abay Kunanbayev was an advocate for:</p>
+        <div class="options">
+            <label><input type="radio" name="q7" value="Technological progress"> Technological progress</label>
+            <label><input type="radio" name="q7" value="Traditional Kazakh culture and language"> Traditional Kazakh culture and language</label>
+            <label><input type="radio" name="q7" value="Colonial expansion"> Colonial expansion </label>
+            <label><input type="radio" name="q7" value="Monarchy"> Monarchy</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>8. In which region was Abay Kunanbayev born?</p>
+        <div class="options">
+            <label><input type="radio" name="q8" value="Almaty"> Almaty</label>
+            <label><input type="radio" name="q8" value=" Astana">  Astana</label>
+            <label><input type="radio" name="q8" value=" Semey"> Semey</label>
+            <label><input type="radio" name="q8" value="Atyrau"> Atyrau</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>9. Abay Kunanbayev's poetry is written primarily in which language?</p>
+        <div class="options">
+            <label><input type="radio" name="q9" value="Russian"> Russian </label>
+            <label><input type="radio" name="q9" value="English"> English</label>
+            <label><input type="radio" name="q9" value="Kazakh"> Kazakh</label>
+            <label><input type="radio" name="q9" value="Turkish"> Turkish</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>10.Which of the following is NOT a theme commonly found in Abay Kunanbayev's poetry?</p>
+        <div class="options">
+            <label><input type="radio" name="q10" value="Nature"> Nature</label>
+            <label><input type="radio" name="q10" value="Love"> Love</label>
+            <label><input type="radio" name="q10" value="Space exploration"> Space exploration</label>
+            <label><input type="radio" name="q10" value="Wisdom"> Wisdom</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>11. Abay Kunanbayev's literary legacy is often compared to:</p>
+        <div class="options">
+            <label><input type="radio" name="q11" value=" William Shakespeare">  William Shakespeare</label>
+            <label><input type="radio" name="q11" value=" Leo Tolstoy ">  Leo Tolstoy </label>
+            <label><input type="radio" name="q11" value="Miguel de Cervantes "> Miguel de Cervantes </label>
+            <label><input type="radio" name="q11" value=" Fyodor Dostoevsky">  Fyodor Dostoevsky</label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>12.Abay Kunanbayev is considered a symbol of:</p>
+        <div class="options">
+            <label><input type="radio" name="q12" value="Modernismy"> Modernism</label>
+            <label><input type="radio" name="q12" value="Kazakh nationalism"> Kazakh nationalism</label>
+            <label><input type="radio" name="q12" value="Surrealism"> Surrealism</label>
+            <label><input type="radio" name="q12" value="Industrialization"> Industrialization</label>
+        </div>
+      </div>
+  
+      <button id="submit-btn" onclick="submitQuiz()">Submit Answers</button>
+      
+  
+      <div id="result"></div>
     </div>
-  </section>
+  
+    <script>
+      function submitQuiz() {
+          var score = 0;
+          var correctAnswers = [];
+  
+          // Question 1
+          var q1Answer = document.querySelector('input[name="q1"]:checked');
+            if (q1Answer && q1Answer.value === "Abay Qunanbayuly Kunanbayev") {
+                score += 1;
+            }
+            correctAnswers.push("1. Abay Qunanbayuly Kunanbayev");
+    
+            // Question 2
+            var q2Answer = document.querySelector('input[name="q2"]:checked');
+            if (q2Answer && q2Answer.value === "19th century") {
+                score += 1;
+            }
+            correctAnswers.push("2. 19th century");
 
-  <!-- end health section -->
+            //Q3
+            var q3Answer = document.querySelector('input[name="q3"]:checked');
+            if (q3Answer && q3Answer.value === "Words of Edification") {
+                score += 1;
+            }
+            correctAnswers.push("3. Words of Edification");
+            
+            //Q4
+            var q4Answer = document.querySelector('input[name="q4"]:checked');
+            if (q4Answer && q4Answer.value === "Literature") {
+                score += 1;
+            }
+            correctAnswers.push("4. Literature");
+    
+            //Q5
+            var q5Answer = document.querySelector('input[name="q5"]:checked');
+            if (q5Answer && q5Answer.value === "Irtysh River") {
+                score += 1;
+            }
+            correctAnswers.push("5. Irtysh River");
+    
+            //Q6
+            var q6Answer = document.querySelector('input[name="q6"]:checked');
+            if (q6Answer && q6Answer.value === "Noble Words") {
+                score += 1;
+            }
+            correctAnswers.push("6. Noble Words");
+    
+            //Q7
+            var q7Answer = document.querySelector('input[name="q7"]:checked');
+            if (q7Answer && q7Answer.value === "Traditional Kazakh culture and language") {
+                score += 1;
+            }
+            correctAnswers.push("7. Traditional Kazakh culture and language");
+    
+            //Q8
+            var q8Answer = document.querySelector('input[name="q8"]:checked');
+            if (q8Answer && q8Answer.value === "Semey") {
+                score += 1;
+            }
+            correctAnswers.push("8. Semey");
+    
+            //Q9
+            var q9Answer = document.querySelector('input[name="q9"]:checked');
+            if (q9Answer && q9Answer.value === "Kazakh") {
+                score += 1;
+            }
+            correctAnswers.push("9. Kazakh");
+    
+            //Q10
+            var q10Answer = document.querySelector('input[name="q10"]:checked');
+            if (q10Answer && q10Answer.value === "Wisdom") {
+                score += 1;
+            }
+            correctAnswers.push("10. Wisdom");
+    
+            //Q11
+            var q11Answer = document.querySelector('input[name="q11"]:checked');
+            if (q11Answer && q11Answer.value === "William Shakespeare") {
+                score += 1;
+            }
+            correctAnswers.push("11.William Shakespeare");
+    
+            //Q12
+            var q12Answer = document.querySelector('input[name="q12"]:checked');
+            if (q12Answer && q12Answer.value === "Kazakh nationalism") {
+                score += 1;
+            }
+            correctAnswers.push("12. Kazakh nationalism");
+    
+            // Display the result
+            var resultContainer = document.getElementById("result");
+            resultContainer.innerHTML = "Your score is: " + score + "/12<br>Correct Answers:<br>" + correctAnswers.join("<br>");
+        
+      }
+    </script>
+    </section>
 
 
-
-  <!-- info section -->
+     <!-- info section -->
   <section class="info_section layout_padding2">
     <div class="container">
       <div class="row">
@@ -300,7 +422,7 @@
                 <a class="nav-link" href="about.html"> About </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="medicine.html"> Bouquet </a>
+                <a class="nav-link" href="medicine.html"> Bouquet</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="buy.html"> Online Buy </a>
@@ -316,9 +438,7 @@
             <form action="">
               <input type="text" placeholder="Enter Your email">
               <div class="d-flex justify-content-center justify-content-md-end mt-3">
-                <button>
-                  Subscribe
-                </button>
+                
               </div>
             </form>
           </div>
@@ -329,58 +449,57 @@
 
 
   <!-- end info section -->
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
+      <!-- footer section -->
+      <section class="container-fluid footer_section">
+        
+      </section>
+      <!-- footer section -->
     
-  </section>
-  <!-- footer section -->
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
-  </script>
-  <script type="text/javascript">
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [],
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 4
-        }
-      }
-    });
-  </script>
-  <script type="text/javascript">
-    $(".owl-2").owlCarousel({
-      loop: true,
-      margin: 10,
-      nav: true,
-      navText: [],
-      autoplay: true,
-
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 4
-        }
-      }
-    });
-  </script>
-</body>
-
-</html>
+      <script type="text/javascript" src="C:\Users\UlsayaPC\Desktop\final\js\jquery.js"></script>
+      <script type="text/javascript" src="C:\Users\UlsayaPC\Desktop\final\js\bootstrap.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+      </script>
+      <script type="text/javascript">
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          navText: [],
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 2
+            },
+            1000: {
+              items: 4
+            }
+          }
+        });
+      </script>
+      <script type="text/javascript">
+        $(".owl-2").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          navText: [],
+          autoplay: true,
+    
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 2
+            },
+            1000: {
+              items: 4
+            }
+          }
+        });
+      </script>
+    </body>
+    
+    </html>

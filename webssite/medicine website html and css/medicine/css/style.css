@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: #e84393;
+  color: #50270ea5;
   background-color: #ffffff;
 }
 
@@ -53,10 +53,13 @@ body {
   height: 5px;
   background-color: #ffffff
 }
-/*header section*/
+/* header section */
 .hero_area {
   height: 100vh;
   background-image: url(../images/white.jpg);
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Centers the background image within the container */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
 
 .sub_page .hero_area {
@@ -79,7 +82,7 @@ body {
 }
 
 .header_section .top_contact-container .tel_container a {
-  color: #e84393;
+  color: #ffff;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,7 +114,7 @@ body {
 }
 
 .header_section .container-fluid {
-  background-color: #e84393;
+  background-color: #ffffff53;
 }
 
 .header_section .container-fluid {
@@ -154,7 +157,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  color: #fafcfd;
+  color: #50270ea5;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -261,12 +264,14 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #2c2c2c;
+  color: #ffff;
 }
-
+.slider_section .detail-box h4 {
+  color: #ffff;
+}
 .slider_section .detail-box h1 span {
   font-size: 4rem;
-  color: #e84393;
+  color: #ffff;
   font-weight: bold;
 }
 
@@ -431,11 +436,80 @@ a:focus {
 	background-color:#222222;
 }
 .about .content .box:nth-child(2) .inner{
-	background-color: #ea0e96;
+	background-color: #222222;
 }
-.about .content .box .inner .img img{
-	width: 100%;
+.about .content .box .inner .img img {
+  width: 50%; /* Adjust the percentage as needed */
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+  height: auto; /* Maintain the aspect ratio of the image */
 }
+.about .content .box .inner .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Assuming you want the image to take the full height of the container */
+}
+.about1 {
+  padding: 80px 0px;
+  background-color: #ffffff;
+}
+
+.about1 .content1 {
+  display: flex;
+}
+
+.about1 .content1 .box1 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+}
+
+.about1 .content1 .box1 .inner1 {
+  background-color: #222222;
+}
+
+.about1 .content1 .box:nth-child(2) .inner1 {
+  background-color: #222222;
+}
+
+.about1 .content1 .box1 .inner1 .img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about1 .content1 .box1 .inner1 .img1 img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.about1 .content1 .box1 .inner1 .text1 {
+  padding: 50px;
+}
+
+.about1 .content1 .box1 .inner1 .text1 h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0px 0px 15px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.about1 .content1 .box1 .inner1 .text1 p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .about .content .box .inner .text{
 	padding:30px;
 }
@@ -460,8 +534,8 @@ a:focus {
 
 
 .discount_section {
-  background-color: #f3bfd8;;
-  color: #ffffff;
+  background-color: rgba(40, 25, 2, 0.66);;
+  color: #ffff;
 }
 
 .discount_section .row {
@@ -485,7 +559,7 @@ a:focus {
 }
 
 .discount_section .detail-box h2 span {
-  color: #e84393;
+  color: #040404;
 }
 
 .discount_section .detail-box p {
@@ -508,8 +582,15 @@ a:focus {
 
 .discount_section .img-box img {
   width: 100%;
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+  height: auto;
 }
-
+.discount_section .img-box img {
+  display: flex;
+  justify-content:start ;
+  align-items: center;
+  height: 100%; /* Assuming you want the image to take the full height of the container */
+}
 .health_section .health_carousel-container {
   width: 90%;
   margin: 0 auto;
@@ -666,20 +747,22 @@ a:focus {
 
 .about_section .container .img-box img {
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .about_section .container .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #e84393;
-  border: 1px solid #e84393;
+  background-color: #ffff;
+  border: 1px solid #ffff;
   color: #ffffff;
   margin-top: 35px;
 }
 
 .about_section .container .detail-box a:hover {
   background-color: transparent;
-  color: #e84393;
+  color: #ffff;
 }
 
 .client_section .client_container {
@@ -797,7 +880,7 @@ a:focus {
 .contact_section .form_contaier form button {
   display: inline-block;
   padding: 10px 50px;
-  background-color: #e84393;
+  background-color: #00000063;
   border: 1px solid #ffffff;
   color: #ffffff;
   border-radius: 5px;
@@ -812,10 +895,11 @@ a:focus {
 .contact_section .detail-box {
   background-image: url(../images/contact-bgg.jpg);
   color: #ffffff;
-  padding: 140px 15%;
+  padding: 200px; 
   text-align: center;
   margin-top: 30px;
 }
+
 
 .contact_section .detail-box h3 {
   font-weight: bold;
